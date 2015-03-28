@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="style/style.css" type="text/css">
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script type="text/javascript" src="js/functions.js"></script>
+	<script>
+		google.maps.event.addDomListener(window, 'load', createMap);
+	</script>
+</head>
+<body>
+	<div id="title">
+		<p>Please hang out with</p>
+	</div>
+	<div id="name">
+		<p>David Laskey</p>
+	</div>
+	<div id="content">
+		<div class="info" id="description">
+			<p class="default">
+			   Where:<br>
+			   233 South Wacker Drive<br>
+			   Chicago, IL 60606
+			</p>
+			<p class="default">
+			   When:<br>
+			   March 28th, 2015<br>
+			   4:00PM - 9:00PM
+			</p>
+			<p class="default">
+			   Why:<br>
+			   I'm bored and want friends to come<br>
+			   over pls come over.
+			</p>
+			<p class="social">
+			   Share:
+			</p>
+			<a id="twitter" href="#"><img src="img/Twitter_logo_blue.png"/></a>
+		</div>
+		
+		<div class="info" id="map-canvas">
+		</div>
+	</div>
+</body>
+</html>

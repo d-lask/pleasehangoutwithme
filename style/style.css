@@ -1,0 +1,117 @@
+@import url('normalize.css');
+
+body {
+	font-family: 'Source Code Pro', 'Courier', Monospace;
+	background-color: #ECCDFF;
+}
+
+#title p {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+
+	margin: 45px 0 0 0;
+}
+
+#name p {
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+
+	margin: 0px;
+}
+
+#content {
+	width: 1024px;
+	height: 1024px;
+	margin: 99px auto 0 auto;
+}
+
+.info {
+	float: right;
+}
+
+#map-canvas {
+	width: 418px;
+	height: 330px;
+	background-color: #CCC;
+	margin: 0 32px 0 78px;
+
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 9px;
+}
+
+#description {
+	margin: 0 78px 0 0;
+}
+
+#description .default {
+	margin: 0;
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0 0 35px 0;
+}
+
+#description .social {
+	margin: 0;
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0;
+	float: left;
+}
+
+#twitter img{
+	width: 24px;
+	height: 24px;
+	margin: 0 0 0 32px;
+}
+
+@media (max-width: 1024px) {
+	#content {
+		width: 100%;
+		height: auto;
+		margin: 99px auto 0 auto;
+	}
+
+	#map-canvas {
+		width: 418px;
+		height: 330px;
+		background-color: #CCC;
+		margin: 0 auto 78px auto;
+
+		border-style: solid;
+		border-width: 1px;
+		border-radius: 9px;
+	}
+
+	.info {
+		float: none;
+		margin: 0 auto;
+	}
+
+	#description .default {
+		width: 418px;
+		margin: 0 auto 0 auto;
+	}
+
+
+	#description .social {
+		width: 418px;
+		margin: 0 auto 0 auto;
+		float: none;
+	}
+
+	#twitter {
+		margin: 0;
+	}
+
+	#twitter img{
+		width: 24px;
+		height: 24px;
+		position: relative;
+		margin: -25px 0 50px 50%;
+	}
+}
